@@ -1,0 +1,82 @@
+/* Font Setup */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #344767;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+}
+
+.navbar-brand {
+    letter-spacing: -0.5px;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+}
+
+.card-header {
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+}
+
+/* DataTables Customization */
+table.dataTable thead th {
+    border-bottom: 2px solid #e9ecef !important;
+    color: #6c757d;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+table.dataTable tbody td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    vertical-align: middle;
+    font-size: 0.875rem;
+}
+
+/* Pagination Buttons */
+.page-item.active .page-link {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.page-link {
+    color: #344767;
+}
+
+/* Status Badges */
+.badge-status {
+    padding: 0.5em 0.75em;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 0.75rem;
+}
+
+.badge-completed {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.badge-pending {
+    background-color: #fff3cd;
+    color: #664d03;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
